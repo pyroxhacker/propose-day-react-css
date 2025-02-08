@@ -1,0 +1,24 @@
+.love-letter{
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fff3f3;
+}
+
+.love-letter h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:#e74c3c
+}
+
+.letter-content{
+  max-width: 800px;
+  margin:0 auto;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.letter-content p{
+    margin-bottom: 1rem;
+}

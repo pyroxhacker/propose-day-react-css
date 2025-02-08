@@ -1,0 +1,33 @@
+.proposal-button-container{
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.propose-button{
+    background-color: #e74c3c;
+    color:white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size:1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.propose-button:hover{
+    background-color: #c0392b;
+}
+
+.proposal-message{
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
